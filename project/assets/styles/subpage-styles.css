@@ -32,3 +32,8 @@ p {
   font-style: normal;
   color: #336699;
 }
+
+a:hover {
+  color: #336699;
+  text-decoration: underline;
+}
