@@ -27,7 +27,7 @@ h1, h2 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: #336699;
+  color: #24476b;
 }
 
 p {
@@ -35,10 +35,48 @@ p {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: #336699;
+  color: #24476b;
 }
 
 a:hover {
-  color: #336699;
+  color: #24476b;
   text-decoration: underline;
+}
+
+.topnav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  background: linear-gradient(to right, #ff914d, #e28246);
+  overflow: hidden;
+  margin-top: -10px;
+  margin-left: -40px;
+  margin-right: -40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+        
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: left;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+    }
+.topnav a:hover {
+  
+  padding-top: 15px;
+  transition: 0.2s ease-in-out;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0)
+  );
+  color: #24476b;
+  transition: all 0.3s ease-in-out;
+  
 }
