@@ -14,6 +14,7 @@
 
 body {
   background-color: #ececec;
+  text-align: justify;
 }
 
 main footer {
@@ -21,6 +22,17 @@ main footer {
   padding-right: 100px;
 }
 
+footer {
+  background-color: #ff914d;
+  color: #f2f2f2;
+  overflow: hidden;
+  margin-left: -40px;
+  border-top: #183149 solid 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  }
 
 h1 {
     text-align: center;
@@ -37,7 +49,7 @@ h1, h2 {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  color: #24476b;
+  color: #183149;
 }
 
 p {
@@ -46,7 +58,7 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
-  color: #24476b;
+  color: #183149;
 }
 
 a {
@@ -92,19 +104,19 @@ a:hover {
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0)
   );
-  color: #24476b;
+  color: #183149;
   transition: all 0.3s ease-in-out;
   
 }
 
 main {
-  color: #24476b;
+  color: #183149;
   padding-left: 160px;
   padding-right: 160px;
 }
 
 footer {
-  color: #24476b;
+  color: #183149;
   padding-left: 160px;
   padding-right: 160px;
 }
@@ -113,7 +125,7 @@ ul li {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #24476b;
+  color: #183149;
   font-size: 30px;
 }
 
@@ -121,7 +133,7 @@ ul li {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #24476b;
+  color: #183149;
   font-size: 40px;
 }
 
@@ -129,7 +141,7 @@ dl dt {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #24476b;
+  color: #183149;
   font-size: 40px;
 }
 
@@ -137,16 +149,16 @@ dd {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #24476b;
+  color: #183149;
   font-size: 30px;
 }
 
 figure{
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding-top : 20px;
   padding-bottom : 20px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -156,7 +168,9 @@ img {
   display: block;
   margin-left: -30px;
   margin-right: auto;
-  width: 800px;
+  width: min(90vw, 800px);
+  max-width: 800px;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -164,7 +178,24 @@ img {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #24476b;
+  color: #183149;
   margin-left: -30px;
 }
 
+.foota:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.resources-bottom {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
