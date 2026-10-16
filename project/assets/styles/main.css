@@ -17,61 +17,6 @@ body {
   text-align: justify;
 }
 
-main footer {
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
-footer {
-  background-color: #ff914d;
-  color: #f2f2f2;
-  overflow: hidden;
-  margin-left: -40px;
-  border-top: #183149 solid 4px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style: none;
-  }
-
-h1 {
-    text-align: center;
-    font-size: 90px;
-}
-
-h2 {
-    text-align: center;
-    font-size: 50px;
-}
-
-h1, h2 {
-  font-family: "DM Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  color: #183149;
-}
-
-p {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
-  color: #183149;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: #ff914d;
-  transition: 0.2s ease-in-out;
-  text-decoration: none;
-}
-
-
 .topnav {
   display: flex;
   flex-direction: row;
@@ -121,20 +66,62 @@ footer {
   padding-right: 160px;
 }
 
+footer {
+  background-color: #ff914d;
+  color: #f2f2f2;
+  overflow: hidden;
+  margin-left: -40px;
+  border-top: #183149 solid 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  }
+
+h1, h2 {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #183149;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: #183149;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff914d;
+  transition: 0.2s ease-in-out;
+  text-decoration: none;
+}
+
 ul li {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #183149;
   font-size: 30px;
-}
-
-.defined {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #183149;
-  font-size: 40px;
 }
 
 dl dt {
@@ -174,20 +161,27 @@ img {
   border-radius: 10px;
 }
 
-.offset-figcaption {
+.defined {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #183149;
-  margin-left: -30px;
+  font-size: 40px;
 }
 
-.foota:hover {
-  color: #f2f2f2;
-  text-decoration: none;
+ol li {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #183149;
   font-size: 30px;
 }
 
+.resources-bottom {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
