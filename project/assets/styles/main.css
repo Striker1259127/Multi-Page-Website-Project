@@ -19,7 +19,7 @@ body {
 
 .topnav {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   list-style: none;
   background: linear-gradient(to right, #ff914d, #e28246);
@@ -41,17 +41,11 @@ body {
   transition: background-color 0.5s ease, color 0.5s ease;
     }
 .topnav a:hover {
-  padding-top: 15px;
-  transition: 0.5s ease-in-out;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0)
-  );
+  padding-left: 500px;
+  padding-right: 500px;
+  background-color: #ffffff;
   color: #183149;
-  transition: all 0.3s ease-in-out;
-  
+  transition: all 0.6s ease-in-out;
 }
 
 main {
